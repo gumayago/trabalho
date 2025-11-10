@@ -50,3 +50,17 @@ nav .paginas{
 }
 
 /* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.cartao{
+    padding: 200px;
+    margin: 10px;
+    border: 2px solid rgb(12, 131, 251);
+    border-radius: 5px;
+    background-color: rgb(49, 169, 238);
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
