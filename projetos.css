@@ -50,17 +50,138 @@ nav .paginas{
 }
 
 /* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-
+/* 
 .cartao{
-    padding: 200px;
+    padding: 150px;
     margin: 10px;
     border: 2px solid rgb(12, 131, 251);
     border-radius: 5px;
     background-color: rgb(49, 169, 238);
-    width: 100px;
+    width: 80px;
     height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: end;
+}
+.imagem{
+    background-color: rgb(236, 68, 17);
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.descricao{
+    background-color: rgb(238, 49, 191);
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+header h1{
+    margin: 60px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
+
+header .caixa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.caixa div{
+    border: 1px solid rgb(12, 131, 251);
+    border-radius: 8px;
+    background-color: rgb(49, 169, 238);
+    margin: 0px;
+    padding: 25px;
+}
+.caixa div p{
+    color: aliceblue;
+    font-size: 30px;
+    
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+ .a{
+   
+
+    border: 1px solid rgb(12, 131, 251);
+    border-radius: 8px;
+    background-color: rgb(49, 169, 238);
+    margin: 25px;
+    padding: 50px;
+
+ }
+ .a h2{
+    font-size: 30px;
+    margin-bottom:25px;
+    
+ }
+ .a p{
+    font-size: 18px;
+ }
+ .a a{
+    border: 1px solid rgb(225, 226, 228);
+    border-radius: 8px;
+    background-color: rgb(225, 226, 228);
+    margin: 15px;
+    padding: 5px;
+    position: absolute;    
+ }
+ /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+ main h2{
+    text-align: start;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 30px;
+ }
+
+ main .cartao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+
+    
+    border: 1px solid rgb(226, 223, 17);
+    border-radius: 8px;
+    background-color: rgb(226, 223, 17);
+    margin: 25px;
+    padding: 50px;
+ }
+ .cartao h2{
+    text-align: start;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 25px;
+ }
+ .descricao ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 15px;
+ }
+
+ .descricao a{
+    border: 1px solid rgb(226, 17, 121);
+    border-radius: 8px;
+    background-color: rgb(226, 17, 121);
+    margin-top:500 px;
+    padding: 20px;
+ }
